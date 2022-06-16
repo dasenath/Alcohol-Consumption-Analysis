@@ -6,7 +6,7 @@ The details of the dataset can be found here "UCI Machine Learning Repository: D
 
 **Key highlights:**
 
-Reduced overfitting and improved the precision of alcohol 'Used Yesterday' class as presented in Figure 1 and 2. The project began with an emphasis on balancing the minority class samples or weight and this can be backed by SVM’s results; however, there was a shift in the notion. NNs, on the other hand, gave better results when not balanced. From this behavior, it can be inferred that it is not necessary to balance the datasets always, but the need for balancing is model-dependent. Balancing of data is not required when the minority class has enough samples that allow the model to identify patterns.
+Reduced overfitting and improved the precision of alcohol 'Used Yesterday' class as presented in Figures 1 and 2. The project began with an emphasis on balancing the minority class samples or weight and this can be backed by SVM’s results; however, there was a shift in the notion. NNs, on the other hand, gave better results when not balanced. From this behavior, it can be inferred that it is not necessary to balance the datasets always, but the need for balancing is model-dependent. Balancing of data is not required when the minority class has enough samples that allow the model to identify patterns.
 
 **_Issue 1:_**
 
@@ -16,7 +16,7 @@ _Solution:_
 1. Merged related classes to create a binary classification problem - Classifying if the patient consumed alcohol yesterday or not.
 2. Used SMOTE technique to oversample the data of the minority class.
 3. Used class weight balancing technique while training the SVM model.
-4. Compared the results for the two balancing technique combinations (Figure 1).
+4. Compared the results for the two balancing technique combinations.
 
 **_Issue 2:_**
 
